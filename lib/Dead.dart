@@ -25,19 +25,17 @@ class Dead extends StatelessWidget {
                   width: 200.0,
                 
         child: ListTile(
-          leading:icon,
+          leading:icon(Icons.Icon-192),
           title:"BBMP crematorium",
           subtitle:"Number",
-          trailing:icon,
+          //trailing:icon(Icons.done),
         );
                 ),
 
              SizedBox(
                   height: 100.0,
                   width: 200.0,
-        child: 
-      
-        RaisedButton(
+        child: RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
         ),
