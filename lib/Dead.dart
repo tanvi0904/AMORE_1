@@ -77,6 +77,7 @@ class Dead extends StatelessWidget {
 
               
       ),
+      ),
       );
     
   }
