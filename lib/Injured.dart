@@ -24,7 +24,7 @@ class Injured extends StatelessWidget {
                       context,
                       MaterialPageRoute(builder: (context) => Injured_Dog()),
                     ),
-                    *
+                    
 
               /*onTap: () {
                 print('horse');

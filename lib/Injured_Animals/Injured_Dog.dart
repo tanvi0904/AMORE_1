@@ -1,4 +1,4 @@
-import 'main.dart';
+/*import 'main.dart';
 import 'package:flutter/material.dart';
 class Injured_Dog extends StatelessWidget {
   @override
@@ -25,3 +25,4 @@ class Injured_Dog extends StatelessWidget {
     );
   }
 }
+*/
