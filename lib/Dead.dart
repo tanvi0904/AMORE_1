@@ -28,10 +28,17 @@ class Dead extends StatelessWidget {
               leading: CircleAvatar(
                 backgroundImage: NetworkImage('https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp')
               ),
-              title: Text('Dog',style: TextStyle(fontSize:20)),
-        )),
-
+              title: Text('bbmp',style: TextStyle(fontSize:20)),
+              subtitle
+        ),
           ],
+         /*ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage('https://www.rd.com/wp-content/uploads/2019/05/American-shorthair-cat-scaled.jpg')
+              ),
+              title: Text('pfa',style: TextStyle(fontSize:20)),
+              subtitle:Text('abc')
+*/
 
         
 
