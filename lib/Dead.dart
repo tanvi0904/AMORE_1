@@ -20,9 +20,7 @@ class Dead extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                SizedBox(
-                  height: 100.0,
-                  width: 200.0,
+                
                 
         child: ListTile(
           //leading: Text('BBMP crematorium'),
@@ -30,7 +28,7 @@ class Dead extends StatelessWidget {
           subtitle: Text('Number'),
           //trailing:icon(Icons.done),
         );
-                ),
+                
 
              SizedBox(
                   height: 100.0,
