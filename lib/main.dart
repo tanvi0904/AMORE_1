@@ -27,10 +27,10 @@ class MyApp extends StatefulWidget {
       ),
       home: LoginPage(),
     );
-  }
+  },
 }
 
-class _AppState extends State<App> {
+class _AppState extends State<MyApp> {
   // Set default `_initialized` and `_error` state to false
   bool _initialized = false;
   bool _error = false;
