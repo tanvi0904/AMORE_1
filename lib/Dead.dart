@@ -29,7 +29,7 @@ class Dead extends StatelessWidget {
           title:Text('BBMP crematorium'),
           subtitle: Text('Number'),
           //trailing:icon(Icons.done),
-        );
+        ),
                 ),
 
              SizedBox(
