@@ -1,6 +1,7 @@
 import 'main.dart';
 import 'package:flutter/material.dart';
 import 'Injured.dart';
+import 'Thank_you.dart';
 
 class Injured_Dog extends StatelessWidget {
   final _locationController = TextEditingController();
