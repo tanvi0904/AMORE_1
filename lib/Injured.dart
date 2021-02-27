@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 
-class DonatePage extends StatelessWidget {
+class Injured extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
        
