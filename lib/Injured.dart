@@ -20,15 +20,8 @@ class Injured extends StatelessWidget {
               onTap: () {
                 print('horse');
               },
-                    /*onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Injured_Dog()),
-                    ),
-                    
-*/
-              /*onTap: () {
-                print('horse');
-              },*/
+                   
+              
             ),
             ListTile(
               leading: CircleAvatar(
