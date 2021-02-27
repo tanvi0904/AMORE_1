@@ -1,6 +1,6 @@
 import 'main.dart';
 import 'package:flutter/material.dart';
-class Dead extends StatelessWidget {
+class Idk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
        
