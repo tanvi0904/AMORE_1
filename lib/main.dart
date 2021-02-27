@@ -11,7 +11,7 @@ void main() {
  // WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
-
+/*
 class MyApp extends StatelesssWidget {
   // This widget is the root of your application.
 //fMyinal Future<FirebaseApp> _iMynitialization = Firebase.initializeApp();
@@ -30,7 +30,7 @@ class MyApp extends StatelesssWidget {
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-/*          return MyApp();
+          return MyApp();
        My }
 
         // Otherwise, show something whilst waiting for initialization to complete
@@ -46,7 +46,7 @@ class MyApp extends StatelesssWidget {
     );
   }
 }
-
+*/
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
