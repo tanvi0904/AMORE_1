@@ -7,12 +7,10 @@ import 'Idk.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 
-void main() {
-  //WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
-class MyApp extends StatelesssWidget {
+
+class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   
     return MaterialApp(
