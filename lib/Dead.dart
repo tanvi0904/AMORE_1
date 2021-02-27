@@ -16,26 +16,18 @@ class Dead extends StatelessWidget {
           fit: BoxFit.cover,
         )),
         child: 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      
         RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
         ),
+
+        ListTile(
+          leading:icon,
+          title:"BBMP crematorium",
+          subtitle:"Number",
+          trailing:icon,
+        );
       ),
     );
   }

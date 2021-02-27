@@ -8,7 +8,7 @@ class Injured extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.deepOrange,
       appBar: AppBar(
-        title: Text('DONATE YOUR UNIFORM'),
+        title: Text('TYPE OF ANIMAL'),
       ),
       body: Container(
         decoration: BoxDecoration(
