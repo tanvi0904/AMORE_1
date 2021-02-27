@@ -43,6 +43,7 @@ class Dead extends StatelessWidget {
               //mainAxisAlignment: MainAxisAlignment.center,
               //crossAxisAlignment: CrossAxisAlignment.center,
               //children: <Widget>[
+                */
                 /*  SizedBox(
                   height: 100.0,
                   width: 200.0,
