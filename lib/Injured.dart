@@ -79,7 +79,7 @@ class Injured extends StatelessWidget {
               leading: CircleAvatar(
                 backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Pz88RqGq2z6zVdeStu9ehRhbEs3t3LcrDg&usqp=CAU')
               ),
-              title: Text('Bird',style: TextStyle(fontSize:30)),
+              title: Text('Others',style: TextStyle(fontSize:30)),
               onTap: () {
                 Navigator.of(context)
                 .push(

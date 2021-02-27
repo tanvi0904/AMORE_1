@@ -34,6 +34,16 @@ Future<void> main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    return MaterialApp(
+      
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: LoginPage(),
+    );
+  }
+
+    /*
     final Future<FirebaseApp> _initialization = Firebase.initializeApp();
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
@@ -84,7 +94,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+*/
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
