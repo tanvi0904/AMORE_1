@@ -11,7 +11,7 @@ void main() {
  // WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
-/*
+
 class MyApp extends StatelesssWidget {
   // This widget is the root of your application.
 //fMyinal Future<FirebaseApp> _iMynitialization = Firebase.initializeApp();
