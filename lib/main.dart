@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
     initializeFlutterFire();
     super.initState();
   }
-
+/*
   @override
   Widget build(BuildContext context) {
     // Show error message if initialization failed
@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
     return MyApp();
   }
 }
-
+*/
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
