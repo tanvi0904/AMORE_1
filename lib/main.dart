@@ -15,7 +15,7 @@ void main() {
 class MyApp extends StatefulWidget {
   // This widget is the root of your application.
   @override
-   _MyAppState createState() => _MyAppState();
+   _AppState createState() => _AppState();
 
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -27,7 +27,7 @@ class MyApp extends StatefulWidget {
     );
   }
 }
-class _MyAppState extends State<MyApp> {
+class _AppState extends State<MyApp> {
   // Set default `_initialized` and `_error` state to false
   bool _initialized = false;
   bool _error = false;
