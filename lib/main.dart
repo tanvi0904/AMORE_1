@@ -1,4 +1,4 @@
-/*import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'LoginPage.dart';
 import 'Injured.dart';
 import 'Dead.dart';
@@ -128,10 +128,10 @@ class MainPage extends StatelessWidget {
                 ),
 
                 Divider(height: 100),
-                */
+                
                 /*Padding( 
                   padding: EdgeInsets.all(10.0),*/
-            /*    SizedBox(
+              SizedBox(
                   width: 80.0,
                   height: 50.0,
                   child: RaisedButton(
@@ -154,4 +154,4 @@ class MainPage extends StatelessWidget {
 
 //await Firebase.initializeApp();
 
-*/
+
