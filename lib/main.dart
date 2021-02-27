@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-          return MyAwesomeApp();
+          return MyApp();
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
@@ -63,11 +63,7 @@ class MainPage extends StatelessWidget {
           child: Align(
             alignment: Alignment.center,
 
-            /*  
-        d
-*/
-
-            child: Column(
+              child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
