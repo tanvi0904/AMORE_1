@@ -56,8 +56,8 @@ class Thank_you extends StatelessWidget {
                 /*Padding( 
                   padding: EdgeInsets.all(10.0),*/
                 SizedBox(
-                  width: 100.0,
-                  height: 50.0,
+                  width: 200.0,
+                  height: 100.0,
                   child: RaisedButton(
                     onPressed: () => Navigator.push(
                       context,
