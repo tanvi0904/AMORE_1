@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'Injured_Dog.dart'; 
+import 'main.dart';
+import 'Injured_Dog.dart';
+import 'Injured_Cat.dart';
+import 'Injured_Cow.dart';
+
 class Injured extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -17,15 +21,15 @@ class Injured extends StatelessWidget {
               ),
               title: Text('Dog',style: TextStyle(fontSize:20)),
               //trailing: Icon(Icons.keyboard_arrow_right),
-              onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Injured_Dog()),
-                    ),
-              /*onTap: () {
-                print('horse');
-              },*/
-                   
-              
+              onTap: () {
+                Navigator.of(context)
+                .push(
+                  MaterialPageRoute(
+                    builder: (context) => Injured_Dog()
+                  )
+                );
+              },
+              //selected: true,
             ),
             ListTile(
               leading: CircleAvatar(
@@ -33,7 +37,12 @@ class Injured extends StatelessWidget {
               ),
               title: Text('Cat',style: TextStyle(fontSize:20)),
               onTap: () {
-                print('horse');
+                Navigator.of(context)
+                .push(
+                  MaterialPageRoute(
+                    builder: (context) => Injured_Cat()
+                  )
+                );
               },
             ),
             ListTile(
@@ -42,7 +51,12 @@ class Injured extends StatelessWidget {
               ),
               title: Text('Cow',style: TextStyle(fontSize:20)),
               onTap: () {
-                print('horse');
+                Navigator.of(context)
+                .push(
+                  MaterialPageRoute(
+                    builder: (context) => Injured_Cow()
+                  )
+                );
               },
             ),
           ],
