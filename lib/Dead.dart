@@ -29,7 +29,7 @@ class Dead extends StatelessWidget {
           title:"BBMP crematorium",
           subtitle:"Number",
           trailing:icon,
-        ),
+        );
                 ),
 
              SizedBox(
@@ -43,7 +43,7 @@ class Dead extends StatelessWidget {
         ),
              ),
 
-              ];
+              ],
         ),
       ),
     );
