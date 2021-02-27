@@ -77,7 +77,7 @@ class Injured extends StatelessWidget {
             ),
             ListTile(
               leading: CircleAvatar(
-                backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Pz88RqGq2z6zVdeStu9ehRhbEs3t3LcrDg&usqp=CAU')
+                backgroundImage: NetworkImage('https://www.clipartkey.com/mpngs/m/28-280538_28-collection-of-wild-animals-clipart-png-group.png')
               ),
               title: Text('Others',style: TextStyle(fontSize:30)),
               onTap: () {
