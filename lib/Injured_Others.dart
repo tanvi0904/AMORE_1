@@ -79,7 +79,7 @@ class Injured_Others extends StatelessWidget {
                   textColor: Colors.black,
                   onPressed: () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => MainPage()),
+                    MaterialPageRoute(builder: (context) => Thank_you()),
                   ),
                 ),
 
