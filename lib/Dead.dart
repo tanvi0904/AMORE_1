@@ -22,6 +22,18 @@ class Dead extends StatelessWidget {
           image: NetworkImage('https://content.thriveglobal.com/wp-content/uploads/2019/05/sadness.jpg'),
           fit: BoxFit.cover,
         )),
+        ListView(
+          children: <Widget>[
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage('https://i.insider.com/5484d9d1eab8ea3017b17e29?width=600&format=jpeg&auto=webp')
+              ),
+              title: Text('Dog',style: TextStyle(fontSize:20)),
+        )),
+
+
+
+        
 
         
               //mainAxisAlignment: MainAxisAlignment.center,
@@ -31,12 +43,12 @@ class Dead extends StatelessWidget {
                   height: 100.0,
                   width: 200.0,
                 */
-         child: ListTile(
+         /*child: ListTile(
           //leading: Text('BBMP crematorium'),  
           title:Text('BBMP crematorium',style: TextStyle(color: Colors.white, fontSize: 40)),
           subtitle: Text('09900707521',style: TextStyle(color: Colors.white, fontSize:36)),
           //trailing:icon(Icons.done),
-        ),
+        ),*/
           /* ListTile(
           
           title:Text('PFA',style: TextStyle(color: Colors.white, fontSize: 40)),
