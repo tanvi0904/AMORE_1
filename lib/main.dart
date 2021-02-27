@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+
+import 'LoginPage.dart';
+import 'Injured.dart';
+import 'Dead.dart';
+import 'Violent.dart';
+import 'Idk.dart';
 /*import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:trash2cash/ConfirmRequest.dart';
@@ -7,8 +13,9 @@ import 'package:trash2cash/MapPage.dart';
 import 'package:trash2cash/newUserLogIn.dart';
 import 'auth.dart';
 import 'introduction_slider.dart';
-*/
+
 import 'package:overlay_support/overlay_support.dart';
+*/
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
 
