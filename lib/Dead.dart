@@ -27,7 +27,7 @@ class Dead extends StatelessWidget {
           title:"BBMP crematorium",
           subtitle:"Number",
           trailing:icon,
-        );
+        ),
       ),
     );
   }
