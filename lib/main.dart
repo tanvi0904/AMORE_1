@@ -58,7 +58,7 @@ class _AppState extends State<App> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  /*Widget build(BuildContext context) {
     // Show error message if initialization failed
     if(_error) {
       return SomethingWentWrong();
@@ -71,6 +71,7 @@ class _AppState extends State<App> {
 
     return MyAwesomeApp();
   }
+  */
 }
 class MainPage extends StatefulWidget {
   @override
