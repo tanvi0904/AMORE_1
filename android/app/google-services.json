@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "841716818640",
+    "project_id": "amore-cf5ea",
+    "storage_bucket": "amore-cf5ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841716818640:android:9e749ac37a9694a81c74d5",
+        "android_client_info": {
+          "package_name": "com.codegemz.hello_world"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841716818640-ecp3scbcu11iec3916eqi42p73hftsti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaRvlB-8_Bp-pR0UblzQldGayJ95Umkjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841716818640-ecp3scbcu11iec3916eqi42p73hftsti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
