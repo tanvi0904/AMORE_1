@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Injured_Dog.dart';
+ 
 class Injured extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
