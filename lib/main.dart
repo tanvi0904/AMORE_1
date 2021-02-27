@@ -21,11 +21,13 @@ import 'package:flutter/services.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  /*
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/1.svg'), null);
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/2.svg'), null);
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/3.svg'), null);
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/4.svg'), null);
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/Group 740.svg'), null);
+  */
   runApp(MyApp());
 }
 
