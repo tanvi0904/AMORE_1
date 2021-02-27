@@ -5,9 +5,7 @@ class Injured extends StatelessWidget {
   Widget build(BuildContext context) {
     final title = 'Type of Animal';
 
-    return MaterialApp(
-      title: title,
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           title: Text(title),
         ),
@@ -43,7 +41,7 @@ class Injured extends StatelessWidget {
             ),
           ],
         ),
-      ),
+      
     );
   }
 }
