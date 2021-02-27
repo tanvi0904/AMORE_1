@@ -18,8 +18,8 @@ class Dead extends StatelessWidget {
 
         decoration: BoxDecoration(
             image: DecorationImage(
-          image: NetworkImage('https://image.freepik.com/free-vector/cute-animals-pattern-background_62907-50.jpg'),
-          fit: BoxFit.cover,
+          image: NetworkImage(),
+          fit: BoxFit.cover,'https://content.thriveglobal.com/wp-content/uploads/2019/05/sadness.jpg'
         )),
 
         
