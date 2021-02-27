@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'LoginPage.dart';
+import 'Injured.dart';
+import 'Dead.dart';
+import 'Violent.dart';
+import 'Idk.dart';
 
 void main() => runApp(MyApp());
 
