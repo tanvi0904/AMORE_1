@@ -7,8 +7,7 @@ class Injured_Dog extends StatelessWidget {
   Widget build(BuildContext context) {
        
     return Scaffold(
-      backgroundColor: Colors.deepOrange,
-      appBar: AppBar(
+        appBar: AppBar(
         title: Text('Contact the authorities'),
       ),
       body: Container(
