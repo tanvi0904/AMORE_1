@@ -31,7 +31,7 @@ class Dead extends StatelessWidget {
               title: Text('Dog',style: TextStyle(fontSize:20)),
         )),
 
-
+          ],
 
         
 
