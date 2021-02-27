@@ -65,11 +65,11 @@ class Thank_you extends StatelessWidget {
                     ),
 
                     //color: Color(0xffFF1744),
-                    color: Colors.,
+                    color: Colors.white,
                     textColor: Colors.black,
                     splashColor: Colors.grey,
                     padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
-                    child: Text('OK', TextStyle: (fontWeight: FontWeight.bold) ),
+                    child: Text('OK', style : TextStyle: (fontWeight: FontWeight.bold) ),
                   ),
                 ),
 
