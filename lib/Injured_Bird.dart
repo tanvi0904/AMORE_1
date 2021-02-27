@@ -14,16 +14,10 @@ class Injured_Bird extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
             image: DecorationImage(
-          image: NetworkImage("https://i.pinimg.com/236x/29/aa/0d/29aa0d016d0e994677556bcbaebc5e46.jpg"),
+          image: NetworkImage("https://media.istockphoto.com/vectors/cute-bird-seamless-pattern-background-vector-illustration-for-fabric-vector-id1168686975"),
           fit: BoxFit.cover,
         )),
-        /*child: 
-        
-
-        RaisedButton(
-          onPressed: () => Navigator.pop(context),
-          child: Text('Back'),
-        ),*/
+      
       ),
     );
   }

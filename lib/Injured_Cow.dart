@@ -7,17 +7,17 @@ class Injured_Cow extends StatelessWidget {
   Widget build(BuildContext context) {
        
     return Scaffold(
-     // backgroundColor: Colors.deepOrange,
+      backgroundColor: Colors.deepOrange,
       appBar: AppBar(
         title: Text('Contact the authorities'),
       ),
       body: Container(
         decoration: BoxDecoration(
             image: DecorationImage(
-          image: NetworkImage("https://i.pinimg.com/236x/29/aa/0d/29aa0d016d0e994677556bcbaebc5e46.jpg"),
+          image: NetworkImage("https://png.pngtree.com/png-vector/20190312/ourmid/pngtree-cute-baby-cow-pattern-png-image_843532.jpg"),
           fit: BoxFit.cover,
         )),
-        
+     
       ),
     );
   }
