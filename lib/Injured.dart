@@ -17,10 +17,14 @@ class Injured extends StatelessWidget {
               ),
               title: Text('Dog',style: TextStyle(fontSize:20)),
               //trailing: Icon(Icons.keyboard_arrow_right),
-                    onTap: () => Navigator.push(
+              onTap: () {
+                print('horse');
+              },
+                    /*onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Injured_Dog()),
                     ),
+                    *
 
               /*onTap: () {
                 print('horse');
