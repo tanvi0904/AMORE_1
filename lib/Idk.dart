@@ -1,8 +1,7 @@
 import 'main.dart';
 import 'package:flutter/material.dart';
 
-class Idk extends StatefulWidget {
-  Idk({Key key, this.title})
+class Idk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
        
@@ -19,11 +18,13 @@ class Idk extends StatefulWidget {
         )),
         child: 
         
-
         RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
         ),
+
+        
+        
       ),
     );
   }

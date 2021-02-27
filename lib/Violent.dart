@@ -1,43 +1,53 @@
-import 'main.dart';
 import 'package:flutter/material.dart';
 
-class Violent extends StatelessWidget {
+
+class Violent extends StatefulWidget {
+  @override
+  _ViolentState createState() => _ViolentState();
+}
+
+class _ViolentState extends State<Violent> {
+
+  int _value = 1;
+  //int _value2 = 1;
+
   @override
   Widget build(BuildContext context) {
-       
     return Scaffold(
-      backgroundColor: Colors.deepOrange,
-      appBar: AppBar(
-        title: Text('Contact the authorities'),
-      ),
-      body: Container(
-        decoration: BoxDecoration(
-            image: DecorationImage(
-          image: NetworkImage("https://i.pinimg.com/236x/29/aa/0d/29aa0d016d0e994677556bcbaebc5e46.jpg"),
-          fit: BoxFit.cover,
-        )),
-        child: 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        RaisedButton(
-          onPressed: () => Navigator.pop(context),
-          child: Text('Back'),
+        appBar: AppBar(
+          title: Text("Dropdown "),
         ),
-      ),
-    );
+        body: Container(
+          padding: EdgeInsets.all(40.0),
+          child: DropdownButton(
+              value: _value,
+              items: [
+                DropdownMenuItem(
+                  child: Text("Dog"),
+                  value: 1,
+                ),
+                DropdownMenuItem(
+                  child: Text("Cat"),
+                  value: 2,
+                ),
+                DropdownMenuItem(
+                  child: Text("Cow"),
+                  value: 3
+                ),
+                DropdownMenuItem(
+                    child: Text("Bird"),
+                    value: 4
+                ),
+                DropdownMenuItem(
+                    child: Text("Others"),
+                    value: 5
+                )
+              ],
+              onChanged: (value) {
+                setState(() {
+                  _value = value;
+                });
+              }),
+        ));
   }
 }
