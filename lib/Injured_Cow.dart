@@ -7,7 +7,7 @@ class Injured_Cow extends StatelessWidget {
   Widget build(BuildContext context) {
        
     return Scaffold(
-      backgroundColor: Colors.deepOrange,
+     // backgroundColor: Colors.deepOrange,
       appBar: AppBar(
         title: Text('Contact the authorities'),
       ),
