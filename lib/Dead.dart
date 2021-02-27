@@ -20,19 +20,28 @@ class Dead extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
+                SizedBox(
+                  height: 100.0,
+                  width: 200.0,
+                
         child: ListTile(
           leading:icon,
           title:"BBMP crematorium",
           subtitle:"Number",
           trailing:icon,
         ),
+                ),
 
+             SizedBox(
+                  height: 100.0,
+                  width: 200.0,
         child: 
       
         RaisedButton(
           onPressed: () => Navigator.pop(context),
           child: Text('Back'),
         ),
+             ),
 
               ],
         ),
