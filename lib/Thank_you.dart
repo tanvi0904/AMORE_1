@@ -56,8 +56,8 @@ class Thank_you extends StatelessWidget {
                 /*Padding( 
                   padding: EdgeInsets.all(10.0),*/
                 SizedBox(
-                  width: 200.0,
-                  height: 100.0,
+                  width: 100.0,
+                  height: 50.0,
                   child: RaisedButton(
                     onPressed: () => Navigator.push(
                       context,
@@ -65,11 +65,11 @@ class Thank_you extends StatelessWidget {
                     ),
 
                     //color: Color(0xffFF1744),
-                    color: Colors.white,
+                    color: Colors.,
                     textColor: Colors.black,
                     splashColor: Colors.grey,
                     padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
-                    child: Text('OK'),
+                    child: Text('OK', TextStyle: (fontWeight: FontWeight.bold) ),
                   ),
                 ),
 
