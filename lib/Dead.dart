@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 
-//child: Text('AMORE', style: TextStyle(color: Colors.black, fontSize: 55)),
+//child: Text('AMORE', style: TextStyle(color: Colors.black, fontSize: 5)),
 
 class Dead extends StatelessWidget {
   @override
@@ -33,7 +33,7 @@ class Dead extends StatelessWidget {
                 */
         child: ListTile(
           //leading: Text('BBMP crematorium'),
-          title:Text('BBMP crematorium',style: TextStyle(color: Colors.white, fontSize: 55)),
+          title:Text('BBMP crematorium',style: TextStyle(color: Colors.white, fontSize: 40)),
           subtitle: Text('Number'),
           //trailing:icon(Icons.done),
         ),
