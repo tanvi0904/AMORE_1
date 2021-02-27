@@ -53,6 +53,7 @@ class _MyAppState extends State<MyApp> {
     initializeFlutterFire();
     super.initState();
   }
+}
 /*
   @override
   Widget build(BuildContext context) {
