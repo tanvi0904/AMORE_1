@@ -31,8 +31,8 @@ class Dead extends StatelessWidget {
           //trailing:icon(Icons.done),
         ),
                 ),
-
-             SizedBox(
+/*
+        SizedBox(
                   height: 100.0,
                   width: 200.0,
         child: RaisedButton(
@@ -40,6 +40,7 @@ class Dead extends StatelessWidget {
           child Text('Back'),
         ),
            ),
+           */
 
               ],
         ),
