@@ -24,9 +24,9 @@ class Thank_you extends StatelessWidget {
 
                 SizedBox(
                   height: 400.0,
-                  child: Text('Your concern has been reported.', style: TextStyle(color: Colors.black, fontSize: 40)),
-                  child: Text('ID No. #D2020021489', style: TextStyle(color: Colors.black, fontSize: 25)),
-                  child: Text('Thank you spreading Love! AMORE!', style: TextStyle(color: Colors.black, fontSize: 25)),
+                  child: Text('Your concern has been reported. ID No. #D2020021489 Thank you spreading Love! AMORE!', style: TextStyle(color: Colors.black, fontSize: 40)),
+                 // child: Text('ID No. #D2020021489', style: TextStyle(color: Colors.black, fontSize: 25)),
+                 // child: Text('Thank you spreading Love! AMORE!', style: TextStyle(color: Colors.black, fontSize: 25)),
                   
                   //textColor: Colors.blue,
                   // fontSize: 35,
