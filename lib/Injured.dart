@@ -3,6 +3,7 @@ import 'main.dart';
 import 'Injured_Dog.dart';
 import 'Injured_Cat.dart';
 import 'Injured_Cow.dart';
+import 'Injured_Bird.dart';
 
 class Injured extends StatelessWidget {
   @override
@@ -55,6 +56,20 @@ class Injured extends StatelessWidget {
                 .push(
                   MaterialPageRoute(
                     builder: (context) => Injured_Cow()
+                  )
+                );
+              },
+            ),
+             ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage('https://i.pinimg.com/originals/5f/51/0b/5f510bbc10345b91b189bf45dde83ddb.jpg')
+              ),
+              title: Text('Bird',style: TextStyle(fontSize:20)),
+              onTap: () {
+                Navigator.of(context)
+                .push(
+                  MaterialPageRoute(
+                    builder: (context) => Injured_Bird()
                   )
                 );
               },

@@ -27,7 +27,7 @@ class MyApp extends StatefulWidget {
     );
   }
 }
-class _MyAppState extends State<MyApp> {
+abstract class _MyAppState extends State<MyApp> {
   // Set default `_initialized` and `_error` state to false
   bool _initialized = false;
   bool _error = false;
