@@ -20,7 +20,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
 
 Future<void> main() async {
-  //WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   /*
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/1.svg'), null);
   await precachePicture(ExactAssetPicture(SvgPicture.svgStringDecoder, 'assets/images/2.svg'), null);

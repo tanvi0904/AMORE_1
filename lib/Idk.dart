@@ -1,6 +1,8 @@
 import 'main.dart';
 import 'package:flutter/material.dart';
-class Idk extends StatelessWidget {
+
+class Idk extends StatefulWidget {
+  Idk({Key key, this.title})
   @override
   Widget build(BuildContext context) {
        
