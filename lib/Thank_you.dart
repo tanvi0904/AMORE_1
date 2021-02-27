@@ -69,7 +69,7 @@ class Thank_you extends StatelessWidget {
                     textColor: Colors.black,
                     splashColor: Colors.grey,
                     padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
-                    child: Text('OK', style : TextStyle: (fontWeight: FontWeight.bold) ),
+                    child: Text('OK', style : TextStyle(fontWeight: FontWeight.bold) ),
                   ),
                 ),
 
