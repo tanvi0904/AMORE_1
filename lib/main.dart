@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'LoginPage.dart';
 
 void main() => runApp(MyApp());
@@ -9,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'What\'s your smart move?',
+      
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -50,11 +49,11 @@ class MainPage extends StatelessWidget {
                   height: 50.0,
                   
                   child: RaisedButton(
-                    /*
+                    
                     onPressed: () => Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => DonatePage()),
-                    ),*/
+                      MaterialPageRoute(builder: (context) => Injured()),
+                    ),
                     //color: Color(0xffFF1744),
                     color: Colors.white,
                     textColor: Colors.black,
@@ -70,11 +69,11 @@ class MainPage extends StatelessWidget {
                   width: 200.0,
                   height: 50.0,
                   child: RaisedButton(
-                    /*
+                    
                     onPressed: () => Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => SellPage()),
-                    ),*/
+                      MaterialPageRoute(builder: (context) => Violent()),
+                    ),
                     //color: Color(0xffFF1744),
                     color: Colors.white,
                     textColor: Colors.black,
@@ -91,11 +90,11 @@ class MainPage extends StatelessWidget {
                   width: 200.0,
                   height: 50.0,
                   child: RaisedButton(
-                    /*
+                    
                     onPressed: () => Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => BuyPage()),
-                    ),*/
+                      MaterialPageRoute(builder: (context) => Dead()),
+                    ),
                     //color: Color(0xffFF1744),
                     color: Colors.white,
                     textColor: Colors.black,
@@ -104,6 +103,27 @@ class MainPage extends StatelessWidget {
                     child: Text('DEAD'),
                   ),
                 ),
+
+                Divider(),
+
+                SizedBox(
+                  width: 200.0,
+                  height: 50.0,
+                  child: RaisedButton(
+                    
+                    onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Idk()),
+                    ),
+                    //color: Color(0xffFF1744),
+                    color: Colors.blue,
+                    textColor: Colors.white,
+                    splashColor: Colors.blue,
+                    padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
+                    child: Text('I cannot comprehend'),
+                  ),
+                ),
+
                 Divider(height: 100),
                 /*Padding( 
                   padding: EdgeInsets.all(10.0),*/
