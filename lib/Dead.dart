@@ -26,8 +26,8 @@ class Dead extends StatelessWidget {
                 
         child: ListTile(
           leading: Text('BBMP crematorium'),
-          title:"BBMP crematorium",
-          subtitle:"Number",
+          title:Text('BBMP crematorium'),
+          subtitle: Text('Number'),
           //trailing:icon(Icons.done),
         );
                 ),
