@@ -8,7 +8,7 @@ class Dead extends StatelessWidget {
     
        
     return Scaffold(
-      backgroundColor: Colors.deepOrange,
+      //backgroundColor: Colors.deepOrange,
       appBar: AppBar(
         title: Text('Contact the authorities'),
       ),
