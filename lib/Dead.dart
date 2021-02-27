@@ -16,7 +16,7 @@ class Dead extends StatelessWidget {
           fit: BoxFit.cover,
         )),
 
-        child: Column(
+        
               
                 
                 
@@ -25,7 +25,7 @@ class Dead extends StatelessWidget {
           title:Text('BBMP crematorium'),
           subtitle: Text('Number'),
           //trailing:icon(Icons.done),
-        );
+        ),
                 
 
              SizedBox(
@@ -37,9 +37,9 @@ class Dead extends StatelessWidget {
         ),
              ),
 
-              
+              d
         ),
-      ),
+      
     );
   }
 }
