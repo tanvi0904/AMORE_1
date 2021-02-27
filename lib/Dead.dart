@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
+
+
 class Dead extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    
        
     return Scaffold(
       backgroundColor: Colors.deepOrange,
@@ -44,7 +47,7 @@ class Dead extends StatelessWidget {
 
               
         ),
-      ),
+      );
     
   }
 }
