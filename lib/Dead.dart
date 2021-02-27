@@ -34,7 +34,7 @@ class Dead extends StatelessWidget {
         child: ListTile(
           //leading: Text('BBMP crematorium'),
           title:Text('BBMP crematorium',style: TextStyle(color: Colors.white, fontSize: 40)),
-          subtitle: Text('09900707521',style: TextStyle(color: Colors.white,fontsize:36)),
+          subtitle: Text('09900707521',style: TextStyle(color: Colors.white, fontSize:36)),
           //trailing:icon(Icons.done),
         ),
                 
