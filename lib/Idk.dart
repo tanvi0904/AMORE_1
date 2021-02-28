@@ -21,7 +21,7 @@ class Idk extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
-            SizedBox(height: 5.0),
+            SizedBox(height: 10.0),
             TextField(
               controller: _locationController,
               decoration: InputDecoration(
@@ -41,7 +41,7 @@ class Idk extends StatelessWidget {
                 fillColor: Colors.white,
                 labelText: 'Cause',
               ),
-              style: TextStyle(color: Colors.black, fontSize: 40),
+              style: TextStyle(color: Colors.black, fontSize: 20),
             ),
             ButtonBar(
               children: <Widget>[
