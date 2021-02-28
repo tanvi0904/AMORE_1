@@ -22,7 +22,7 @@ class Idk extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 20.0),
           children: <Widget>[
 
-            SizedBox(height: 20.0),
+            SizedBox(height: 40.0),
             TextField(
               controller: _causeController,
               decoration: InputDecoration(
