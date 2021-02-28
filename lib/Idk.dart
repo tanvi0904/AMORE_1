@@ -7,8 +7,7 @@ class Idk extends StatelessWidget {
   final _causeController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    final maxLines = 5;
-    return Scaffold(
+        return Scaffold(
       backgroundColor: Colors.deepOrange,
       appBar: AppBar(
         title: Text('Contact the authorities'),
