@@ -22,8 +22,29 @@ class Idk extends StatelessWidget {
          padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
 
+            /** 
+             Widget _buildTextField() {
+              final maxLines = 5;
+
+              return Container(
+              margin: EdgeInsets.all(12),
+              height: maxLines * 24.0,
+              child: TextField(
+              maxLines: maxLines,
+              decoration: InputDecoration(
+              hintText: "Enter a message",
+              fillColor: Colors.grey[300],
+              filled: true,
+      ),
+    ),
+  );
+}
+            */
+            final maxLines = 5; 
             SizedBox(height: 100.0),
+            height: maxLines*24.0,
             TextField(
+              maxLines: maxLines,
               controller: _causeController,
               decoration: InputDecoration(
                 hintText: ('Try understanding the cause of concern and Please maintain a safe distance from animal'),
