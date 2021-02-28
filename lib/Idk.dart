@@ -23,28 +23,31 @@ class Idk extends StatelessWidget {
         child: ListView(
          padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
-
-            /** 
-             Widget _buildTextField() {
+            Widget _buildTextField() {
               final maxLines = 5;
-
               return Container(
               margin: EdgeInsets.all(12),
               height: maxLines * 24.0,
-              child: TextField(
+              TextField(
               maxLines: maxLines,
+              decoration: InputDecoration(
+                hintText: ('Try understanding the cause of concern and Please maintain a safe distance from animal'),
+                filled: true,
+                fillColor: Colors.white,
+                labelText: 'Cause',
+              ),
+              ),
+              ),
+            },
+          ]
+          
+
               
-      ),
-    ),
-  );
-}
-            */
+      
              
-            //SizedBox(height: 100.0),
-            margin: EdgeInsets.all(12)
-            height: maxLines*24.0,
+            /*SizedBox(height: 100.0),
             TextField(
-              maxLines: maxLines,
+              
               controller: _causeController,
               decoration: InputDecoration(
                 hintText: ('Try understanding the cause of concern and Please maintain a safe distance from animal'),
@@ -53,7 +56,7 @@ class Idk extends StatelessWidget {
                 labelText: 'Cause',
               ),
               style: TextStyle(color: Colors.black, fontSize: 40),
-            ),
+            ),*/
             ButtonBar(
               children: <Widget>[
                 RaisedButton(
