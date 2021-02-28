@@ -6,7 +6,6 @@ import 'Violent.dart';
 import 'Idk.dart';
 import 'package:firebase_core/firebase_core.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -14,7 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -22,7 +20,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 
 class MainPage extends StatelessWidget {
   @override
@@ -39,8 +36,7 @@ class MainPage extends StatelessWidget {
 
           child: Align(
             alignment: Alignment.center,
-
-              child: Column(
+            child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
@@ -50,9 +46,7 @@ class MainPage extends StatelessWidget {
                 SizedBox(
                   width: 200.0,
                   height: 50.0,
-                  
                   child: RaisedButton(
-                    
                     onPressed: () => Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Injured()),
@@ -72,7 +66,6 @@ class MainPage extends StatelessWidget {
                   width: 200.0,
                   height: 50.0,
                   child: RaisedButton(
-                    
                     onPressed: () => Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Violent()),
@@ -93,7 +86,6 @@ class MainPage extends StatelessWidget {
                   width: 200.0,
                   height: 50.0,
                   child: RaisedButton(
-                    
                     onPressed: () => Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Dead()),
@@ -113,7 +105,6 @@ class MainPage extends StatelessWidget {
                   width: 200.0,
                   height: 50.0,
                   child: RaisedButton(
-                    
                     onPressed: () => Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Idk()),
@@ -128,10 +119,10 @@ class MainPage extends StatelessWidget {
                 ),
 
                 Divider(height: 100),
-                
+
                 /*Padding( 
                   padding: EdgeInsets.all(10.0),*/
-              SizedBox(
+                SizedBox(
                   width: 80.0,
                   height: 50.0,
                   child: RaisedButton(
@@ -153,5 +144,3 @@ class MainPage extends StatelessWidget {
 }
 
 //await Firebase.initializeApp();
-
-
