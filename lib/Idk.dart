@@ -18,6 +18,7 @@ class Idk extends StatelessWidget {
           image: NetworkImage("https://media.istockphoto.com/vectors/animals-silhouettes-seamless-pattern-cute-background-vector-id621478696"),
           fit: BoxFit.cover,
         )),
+        final maxLines = 5;
         child: ListView(
          padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
@@ -31,17 +32,15 @@ class Idk extends StatelessWidget {
               height: maxLines * 24.0,
               child: TextField(
               maxLines: maxLines,
-              decoration: InputDecoration(
-              hintText: "Enter a message",
-              fillColor: Colors.grey[300],
-              filled: true,
+              
       ),
     ),
   );
 }
             */
-            final maxLines = 5; 
-            SizedBox(height: 100.0),
+             
+            //SizedBox(height: 100.0),
+            margin: EdgeInsets.all(12)
             height: maxLines*24.0,
             TextField(
               maxLines: maxLines,

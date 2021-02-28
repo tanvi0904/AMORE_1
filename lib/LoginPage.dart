@@ -33,7 +33,7 @@ class _LoginPageState extends State<LoginPage> {
                 Image.asset('assets/diamond.png'),
                 
                 SizedBox(height: 70.0,
-                child: Text('AMORE', style: TextStyle(color: Colors.black, fontSize: 55)),
+                child: Text('AMORE!', style: TextStyle(color: Colors.black, fontSize: 55)),
                 //textColor: Colors.blue,
                // fontSize: 35,
                 ),
