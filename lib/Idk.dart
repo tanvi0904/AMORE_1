@@ -31,7 +31,7 @@ class Idk extends StatelessWidget {
                 fillColor: Colors.white,
                 labelText: 'Cause',
               ),
-              style: TextStyle(color: Colors.black, fontSize: 20),
+              style: TextStyle(color: Colors.black, fontSize: 40),
             ),
             ButtonBar(
               children: <Widget>[
