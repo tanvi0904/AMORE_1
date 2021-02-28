@@ -21,6 +21,17 @@ class Idk extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
+            SizedBox(height: 5.0),
+            TextField(
+              controller: _locationController,
+              decoration: InputDecoration(
+                hintText: ('Enter the location of the animal'),
+                filled: true,
+                fillColor: Colors.white,
+                labelText: 'Location',
+              ),
+              style: TextStyle(color: Colors.black, fontSize: 20),
+            ),
             SizedBox(height: 100.0),
             TextField(
               controller: _causeController,
