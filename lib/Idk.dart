@@ -20,13 +20,7 @@ class Idk extends StatelessWidget {
         )),
         
         child: ListView(
-         padding: EdgeInsets.symmetric({
-           double vertical = 10.0 , 
-           double horizontal: 5.0,
-            }): left = horizontal,
-                top = vertical,
-                right = horizontal,
-                bottom = vertical;
+         padding: EdgeInsets.symmetric(vertical=10.0)
           children: <Widget>[
  
             SizedBox(height: 100),
