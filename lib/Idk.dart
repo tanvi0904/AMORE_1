@@ -7,7 +7,7 @@ class Idk extends StatelessWidget {
   final _causeController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-        return Scaffold(
+    return Scaffold(
       backgroundColor: Colors.deepOrange,
       appBar: AppBar(
         title: Text('Contact the authorities'),
@@ -18,17 +18,14 @@ class Idk extends StatelessWidget {
           image: NetworkImage("https://media.istockphoto.com/vectors/animals-silhouettes-seamless-pattern-cute-background-vector-id621478696"),
           fit: BoxFit.cover,
         )),
-        
         child: ListView(
-         padding: EdgeInsets.symmetric(horizontal =10.0),
+          padding: EdgeInsets.symmetric(horizontal = 10.0),
           children: <Widget>[
- 
-            SizedBox(height: 100),
+            SizedBox(height: 100.0),
             TextField(
-              
               controller: _causeController,
               decoration: InputDecoration(
-                hintText: ('Try understanding the cause of concern and Please maintain a safe distance from animal'),
+                hintText: ('Try understanding the cause of concern '),
                 filled: true,
                 fillColor: Colors.white,
                 labelText: 'Cause',
