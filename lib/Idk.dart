@@ -19,7 +19,7 @@ class Idk extends StatelessWidget {
           fit: BoxFit.cover,
         )),
         child: ListView(
-          padding: EdgeInsets.symmetric(horizontal = 10.0),
+          padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
             SizedBox(height: 100.0),
             TextField(
