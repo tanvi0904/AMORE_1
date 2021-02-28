@@ -7,6 +7,7 @@ class Idk extends StatelessWidget {
   final _causeController = TextEditingController();
   @override
   Widget build(BuildContext context) {
+    final maxLines = 5;
     return Scaffold(
       backgroundColor: Colors.deepOrange,
       appBar: AppBar(
@@ -18,7 +19,7 @@ class Idk extends StatelessWidget {
           image: NetworkImage("https://media.istockphoto.com/vectors/animals-silhouettes-seamless-pattern-cute-background-vector-id621478696"),
           fit: BoxFit.cover,
         )),
-        final maxLines = 5;
+        
         child: ListView(
          padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
