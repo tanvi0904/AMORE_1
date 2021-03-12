@@ -109,7 +109,6 @@ class MainPage extends StatelessWidget {
                       context,
                       MaterialPageRoute(builder: (context) => Idk()),
                     ),
-                    //color: Color(0xffFF1744),
                     color: Colors.white,
                     textColor: Colors.black,
                     splashColor: Colors.blue,
